@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Search Status Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Importing the BootStrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Importing the styles.css file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!----Header of the webpage-->
+    <div class="header">
+        <p class="header-title">Status Posting System</p>
+        <div class="header-content">
+            <a class="home-page" href="/assign1/index.html">Home</a>
+            <a class="post-page" href="/assign1/poststatusform.php">Post Form</a>
+            <a class="search-page" href="/assign1/searchstatusform.html">Search Status</a>
+            <a class="about-page" href="/assign1/about.html">About</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-header">
+            <h1>Status Posting System</h1>
+        </div>
+        <form action="/assign1/searchstatusprocess.php" method="get">
+            <b><label for="status">Status:</label></b>
+            <input type="text" id="status" name="status" size="60" placeholder="e.g. assignment">
+            <input type="submit" name="searchstatus" class="btn btn-primary" value="Show Results">
+            <br><br><a id="homepage-btn" href="/assign1/index.html">Return to Homepage</a>
+        </form>
+    </div>
+    <!----Footer of the webpage-->
+    <div class="footer">
+        <div class="footer-content">
+            <p>Contact: statuspostingsystem@tempmail123.com</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+.header {
+    background-color: rgb(46, 46, 85);
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e6e6e6;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.header-content {
+    float: right;
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 10px;
+    margin-top: -75px;
+    margin-left: 10px;
+    
+}
+
+.home-page {
+    margin-left: 13px;
+    color: #e6e6e6;
+}
+
+.post-page {
+    margin-left: 13px;
+    color: #e6e6e6;
+}
+
+.search-page {
+    margin-left: 13px;
+    color: #e6e6e6;
+}
+
+.about-page {
+    margin-left: 13px;
+    color: #e6e6e6;
+}
+
+.form-header {
+    border-bottom: 3px rgb(64, 165, 224) solid;
+    padding: 0.5em;
+    margin: 0 -1.3em;
+    margin-bottom: 1rem;
+}
+
+.container {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: rgb(46, 46, 85);
+    padding: 3px 5px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+
+}
+
+.footer-content {
+    float: right;
+    color: #e6e6e6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 30px 30px;
+    margin-left: 10px;
+    
+}
+
+#homepage-btn {
+    background-color: rgb(64, 165, 224);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+#searchpage-btn {
+    background-color: rgb(126, 190, 226);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#aboutpage-btn {
+    background-color: rgb(64, 165, 224);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 23%;
+}
+
+.btn.btn-primary {
+    padding: 10px 20px !important;
+}
+
+.btn.btn-secondary {
+    padding: 10px 20px !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+.about-container {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+#status-header {
+    text-decoration: underline;
+}
+
+.card {
+    width: 22rem !important;
+}
